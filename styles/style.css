@@ -97,6 +97,7 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
+    font-size: xx-large;
 }
 
 .modal-content {
@@ -118,12 +119,16 @@ body {
     align-items: center;
 }
 
+.modal-footer button {    
+    font-size: xx-large;
+}
+
 .modal-header {
     margin-bottom: 10px;
 }
 
 .modal-title {
-    font-size: 18px;
+    font-size: xx-large;
     font-weight: bold;
 }
 
@@ -153,9 +158,10 @@ html {
 #startButton {
     height: 3em;
     width: 5em;
-    font-size: larger;
+    font-size: xx-large;
     text-align: center;
 }
+
 
 .title {
     text-align: center;
@@ -163,7 +169,7 @@ html {
 
 .instructions {
     text-align: left;
-    font-size: large;
+    font-size: xx-large;
     padding-left: 10%;
     padding-right: 10%;
 }
